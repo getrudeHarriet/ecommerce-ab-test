@@ -26,3 +26,26 @@ This prjct analyzes a simulated A/B testing from an e-commerce site to determine
 - Revenue boxplot by group
 
 ## Folder Structure
+
+## Summary of Findings
+- Treatment group had a slightly higher conversion and revenue but the results were not statistically significant.
+- Confidence intervals and p-values support that the observed values could be due to chance.
+- Visuals confirm most users did not convert - Insights suggest more data or deeper funnel optimization may be needed.
+
+---
+
+## Author
+*Getrude Harriet - Aspiring Data Analyst | Python | SQL | Statistics*
+
+---
+
+## How to Run This Project
+1. Clone the repo
+2. Open in VSCode or Jupyter Lab
+3. Run notebooks in order:
+   - '1_data_simulation.ipynb'
+   - '2_sql_queries.ipynb'
+   - '3_ab_testing_stats.ipynb'
+*(optional)*
+
+
