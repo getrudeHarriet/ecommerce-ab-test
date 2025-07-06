@@ -1,0 +1,6 @@
+# Ignore Python cache and notebook junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
