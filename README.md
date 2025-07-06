@@ -1,6 +1,6 @@
 # E-Commerce A/B Testing and Customer Behavior Analysis
 
-This prjct analyzes a simulated A/B testing from an e-commerce site to determine whether a new feature (treatment) leads to a higher conversion rates and revenue compared to the existing setup(control). It also explores user behavior by device  type.
+This project analyzes a simulated A/B testing from an e-commerce site to determine whether a new feature (treatment) leads to a higher conversion rates and revenue compared to the existing setup(control). It also explores user behavior by device  type.
 
 ## Tools and Technologies
 -Python (Pandas, Scipy, Seaborn, Matplotlib)
