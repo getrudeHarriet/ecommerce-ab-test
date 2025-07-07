@@ -46,6 +46,6 @@ This project analyzes a simulated A/B testing from an e-commerce site to determi
    - '1_data_simulation.ipynb'
    - '2_sql_queries.ipynb'
    - '3_ab_testing_stats.ipynb'
-*(optional)*
+
 
 
