@@ -1,41 +1,54 @@
 # E-Commerce A/B Testing and Customer Behavior Analysis
 
-This project analyzes a simulated A/B testing from an e-commerce site to determine whether a new feature (treatment) leads to a higher conversion rates and revenue compared to the existing setup(control). It also explores user behavior by device  type.
+This project evaluates the results of a simulated A/B test for an e-commerce platform, aiming to determine whether a newly introduced feature (treatment) improves conversion rates and revenue compared to the existing setup (control).
+It also investigates customer behavior patterns, including differences by device type.
 
 ## Tools and Technologies
--Python (Pandas, Scipy, Seaborn, Matplotlib)
--SQL (via ipython-sql)
--Jupyter Notebooks
--Visual Studio Code
+- Python: Pandas, SciPy, Seaborn, Matplotlib
 
-## Key Components
-### 1. **SQL Analysis**
-- Conversion rate by group
-- Average revenue by group
-- Session time by device
-- Conversion rate by device
-- Revenue per second by group
+- SQL: via ipython-sql for querying
+
+- Jupyter Notebooks for interactive analysis
+
+- Visual Studio Code for development
+
+## Project workflow
+### 1. **SQL-Based Exploratory Analysis**
+- Calculated conversion rate by group
+
+- Measured average revenue by group
+
+- Analyzed session time by device
+
+- Compared conversion rate by device
+
+- Computed revenue per second by group
 
 ### 2. **Statistical Testing**
-- Chi-Square test for conversion rate difference
-- T-Test for average revenue differnce
-- 95% Confidence intervals
+- Chi-Square Test → compared conversion rates between control and treatment
+
+- Independent t-test → assessed difference in mean revenue
+
+- 95% Confidence Intervals → evaluated the precision of estimates
 
 ### 3. **Visualizations**
-- Conversion rate bar chart with confidence intervals
-- Revenue boxplot by group
+- Bar chart with confidence intervals for conversion rates
 
-## Folder Structure
+- Boxplot showing revenue distribution by group
 
-## Summary of Findings
-- Treatment group had a slightly higher conversion and revenue but the results were not statistically significant.
-- Confidence intervals and p-values support that the observed values could be due to chance.
-- Visuals confirm most users did not convert - Insights suggest more data or deeper funnel optimization may be needed.
+## Key Insights
+- Treatment group showed slightly higher conversion and revenue compared to control.
+
+- Statistical tests indicate differences were not statistically significant (p-values above 0.05).
+
+- Visuals confirm most users did not convert, highlighting the need for further funnel optimization.
+
+- Recommendation: Increase sample size or refine the feature before full rollout.
 
 ---
 
 ## Author
-*Getrude Harriet - Aspiring Data Analyst | Python | SQL | Statistics*
+*Getrude Harriet Isaisi - Aspiring Data Scientist | Python | SQL | Statistics*
 
 ---
 
