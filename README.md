@@ -41,12 +41,11 @@ Highlighted drop-off points in the funnel to uncover optimization opportunities.
 ## Sample Outputs
 
 Conversion Rate by Group
-
+![Conversion Rate Bar Chart](Conversion_Rate.png)  
 
 Revenue Distribution by Group
+![Revenue Boxplot](Revenue_Distribution.png) 
 
-
-(Add your generated charts into an /images folder and update paths as needed.)
 
 ## Key Findings
 
