@@ -41,10 +41,10 @@ Highlighted drop-off points in the funnel to uncover optimization opportunities.
 ## Sample Outputs
 
 Conversion Rate by Group
-![Conversion Rate Bar Chart](C:\Users\Getrude\Desktop\ecommerce-ab-test\images\conversion_rate.png)  
+![Conversion Rate Bar Chart](images\conversion_rate.png)  
 
 Revenue Distribution by Group
-![Revenue Boxplot](C:\Users\Getrude\Desktop\ecommerce-ab-test\images\revenue_distribution.png) 
+![Revenue Boxplot](images\revenue_distribution.png) 
 
 
 ## Key Findings
