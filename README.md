@@ -1,64 +1,87 @@
-# E-Commerce A/B Testing and Customer Behavior Analysis
+## E-Commerce A/B Testing and Customer Behavior Analysis
+## Executive Summary
 
-This project evaluates the results of a simulated A/B test for an e-commerce platform, aiming to determine whether a newly introduced feature (treatment) improves conversion rates and revenue compared to the existing setup (control).
-It also investigates customer behavior patterns, including differences by device type.
+This project simulates an A/B test for an e-commerce platform to determine whether a new feature improves conversion rates and revenue compared to the existing setup. Using a combination of SQL, Python, and statistical testing, I evaluated customer behavior across control and treatment groups, segmented by device type. While the treatment group showed a slight performance improvement, results were not statistically significant, emphasizing the need for larger sample sizes and refined experiments. The analysis demonstrates end-to-end skills in data simulation, statistical analysis, and actionable business recommendations.
 
-## Tools and Technologies
-- Python: Pandas, SciPy, Seaborn, Matplotlib
+## Tools & Technologies
 
-- SQL: via ipython-sql for querying
+Python: pandas, SciPy, Seaborn, Matplotlib
 
-- Jupyter Notebooks for interactive analysis
+SQL: exploratory analysis using ipython-sql
 
-- Visual Studio Code for development
+Jupyter Notebooks: interactive analysis and documentation
 
-## Project workflow
-### 1. **SQL-Based Exploratory Analysis**
-- Calculated conversion rate by group
+VS Code: development environment
 
-- Measured average revenue by group
+## Project Workflow
+### 1. Data Simulation & Exploration
 
-- Analyzed session time by device
+Simulated realistic e-commerce transaction and clickstream data.
 
-- Compared conversion rate by device
+Performed SQL-based exploratory analysis to calculate conversion rates, average revenue, and session times.
 
-- Computed revenue per second by group
+Segmented customers by device type to compare engagement and conversion.
 
-### 2. **Statistical Testing**
-- Chi-Square Test → compared conversion rates between control and treatment
+### 2. Statistical Testing
 
-- Independent t-test → assessed difference in mean revenue
+Chi-Square Test → compared conversion rates between control and treatment groups.
 
-- 95% Confidence Intervals → evaluated the precision of estimates
+Independent t-test → assessed differences in mean revenue.
 
-### 3. **Visualizations**
-- Bar chart with confidence intervals for conversion rates
+95% Confidence Intervals → measured the precision and reliability of estimates.
 
-- Boxplot showing revenue distribution by group
+### 3. Visualization & Insight Generation
 
-## Key Insights
-- Treatment group showed slightly higher conversion and revenue compared to control.
+Created bar charts with confidence intervals for group conversions.
 
-- Statistical tests indicate differences were not statistically significant (p-values above 0.05).
+Visualized revenue distributions with boxplots.
 
-- Visuals confirm most users did not convert, highlighting the need for further funnel optimization.
+Highlighted drop-off points in the funnel to uncover optimization opportunities.
 
-- Recommendation: Increase sample size or refine the feature before full rollout.
+## Sample Outputs
 
----
+Conversion Rate by Group
 
-## Author
-*Getrude Harriet Isaisi - Aspiring Data Scientist | Python | SQL | Statistics*
 
----
+Revenue Distribution by Group
+
+
+(Add your generated charts into an /images folder and update paths as needed.)
+
+## Key Findings
+
+The treatment group showed slightly higher conversion and revenue, but differences were not statistically significant (p > 0.05).
+
+Conversion rates were consistently low across both groups, emphasizing the need for funnel optimization.
+
+Device-level analysis revealed behavioral differences that could inform personalized UX improvements.
+
+## Recommendations
+
+Increase sample size to improve the power of statistical tests.
+
+Refine and iterate on the feature before a full rollout.
+
+Consider segment-specific experiments (e.g., by device type) to target improvements more effectively.
 
 ## How to Run This Project
-1. Clone the repo
-2. Open in VSCode or Jupyter Lab
-3. Run notebooks in order:
-   - '1_data_simulation.ipynb'
-   - '2_sql_queries.ipynb'
-   - '3_ab_testing_stats.ipynb'
+
+Clone this repository
+
+Open in VS Code or Jupyter Lab
+
+Run notebooks in the following order:
+
+1_data_simulation.ipynb
+
+2_sql_queries.ipynb
+
+3_ab_testing_stats.ipynb
+
+## Author
+Getrude Harriet Isaisi
+Aspiring Data Scientist | Python | SQL | Statistics
+
 
 
 
