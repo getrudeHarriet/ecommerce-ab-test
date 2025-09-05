@@ -41,7 +41,7 @@ Highlighted drop-off points in the funnel to uncover optimization opportunities.
 ## Sample Outputs
 
 Conversion Rate by Group
-![Conversion Rate Bar Chart](images\conversion_rate.png)  
+![Conversion Rate Bar Chart](https://github.com/getrudeHarriet/ecommerce-ab-test/blob/main/images/conversion_rate.png?raw=true)  
 
 Revenue Distribution by Group
 ![Revenue Boxplot](images\revenue_distribution.png) 
