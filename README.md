@@ -44,7 +44,7 @@ Conversion Rate by Group
 ![Conversion Rate Bar Chart](https://github.com/getrudeHarriet/ecommerce-ab-test/blob/main/images/conversion_rate.png?raw=true)  
 
 Revenue Distribution by Group
-![Revenue Boxplot](images\https://github.com/getrudeHarriet/ecommerce-ab-test/blob/main/images/revenue_distribution.png?raw=true) 
+![Revenue Boxplot](https://github.com/getrudeHarriet/ecommerce-ab-test/blob/main/images/revenue_distribution.png?raw=true) 
 
 
 ## Key Findings
